@@ -8,7 +8,7 @@ mapping = {
 }
 locate = {}
 def bfs(start):
-    queue = [start]      # 队列
+    queue = [start]      # 队
     looked = set()  # 遍历过的节点
     looked.add(start)   # 将开始的节点加入到遍历元组中
     while queue:    # 队列不为空
