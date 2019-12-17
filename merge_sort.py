@@ -2,7 +2,8 @@
 # @level: 困难 @author:noc  @time:2019年12月12日
 class Solution:
   def findMedianSortedArrays(self, nums1: List[int], nums2: List[int]) -> float:
-        nums = nums1 + nums2    
+        '''不考虑复杂度的情况下'''
+        nums = nums1 + nums2
         nums.sort()
         if len(nums) % 2 == 1:
             middle = nums[len(nums) // 2 ]
